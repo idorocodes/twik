@@ -29,7 +29,6 @@ Holds the campaign details and collected funds.
 * `target_amount: u64` – Funding goal
 * `collected_amount: u64` – Total donated
 * `contributors: vector<address>` – List of donor addresses
-* `status: u8` – 0 = Active, 1 = Funded, 2 = Closed
 
 ### 2. `WithdrawCap`
 
@@ -57,16 +56,12 @@ Capability object allowing only the creator to withdraw funds.
    * Transfer funds to creator if goal is reached
    * Close campaign and destroy `WithdrawCap`
 
-4. **check_status(campaign)**
-
-   * Returns `Active`, `Funded`, or `Closed`
 
 
 ## Quick Start 
 
 1. Deploy `Campaign` and `WithdrawCap` via `create_campaign`.
-2. Donate to the campaign with `donate`.
-3. Check status anytime with `check_status`.
+2. Donate to the campaign with `contribute`.
 4. Creator withdraws with `withdraw` once funded.
 
 
