@@ -7,9 +7,9 @@ chain-id = "3ac83284"
 
 [[published]]
 source = { local = '\\?\C:\Users\jamos\Documents\twik' }
-published-at = "0xf7c26abbfc0f10ffe25b964470cadd557606ad792d6ff1dd0c6ae4a3a05220e8"
-original-id = "0xf7c26abbfc0f10ffe25b964470cadd557606ad792d6ff1dd0c6ae4a3a05220e8"
+published-at = "0x0cac5e08a86f07da0e0a8fa8f6e497c1edf0a17600249ceca2b4076d34f46391"
+original-id = "0x0cac5e08a86f07da0e0a8fa8f6e497c1edf0a17600249ceca2b4076d34f46391"
 version = 1
 toolchain-version = "1.64.1"
 build-config = { flavor = "sui", edition = "2024" }
-upgrade-capability = "0x476cdfb371f83c394905523a55684b50f21d1cae845c97a96f4201338641ebf3"
+upgrade-capability = "0xa608b3348cef0749dde39461a7c685e3fdd176000b1f6b52b1531757e3f1a8df"
