@@ -29,7 +29,6 @@ Holds the campaign details and collected funds.
 * `target_amount: u64` – Funding goal
 * `collected_amount: u64` – Total donated
 * `contributors: vector<address>` – List of donor addresses
-* `status: u8` – 0 = Active, 1 = Funded, 2 = Closed
 
 ### 2. `WithdrawCap`
 
